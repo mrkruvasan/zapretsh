@@ -11,7 +11,7 @@
 Для **установки** в Linux или <a href="https://openwrt.org/">OpenWRT</a> необходимо скачать и распаковать репозиторий <a href="https://github.com/nilabsent/zapretsh/archive/refs/heads/main.tar.gz">zapretsh</a> любым доступным способом, например:
 
 - для Linux/OpenWRT: `cd /tmp && curl -sL https://github.com/nilabsent/zapretsh/archive/refs/heads/main.tar.gz | tar xz && cd zapretsh-main`
-- для OpenWRT в базовой конфигурации: `opkg update && opkg install curl && cd /tmp && curl -sL https://github.com/nilabsent/zapretsh/archive/refs/heads/main.tar.gz | tar xz && cd zapretsh-main`
+- для OpenWRT в базовой конфигурации: `opkg update && opkg install curl && cd /tmp && curl -sL https://github.com/nilabsent/mrkruvasan/archive/refs/heads/main.tar.gz | tar xz && cd zapretsh-main`
 - для OpenWRT 25 и выше в базовой конфигурации: `apk update && apk add curl && cd /tmp && curl -sL https://github.com/nilabsent/zapretsh/archive/refs/heads/main.tar.gz | tar xz && cd zapretsh-main`
 
 и запустить от прав администратора `./install.sh`
